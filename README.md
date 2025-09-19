@@ -26,9 +26,9 @@ A **DualJump** egy egyszerű VS Code bővítmény, amellyel két fájl között 
 
 ## Telepítés VSIX fájlból
 
-Ha nem szeretnéd a Marketplace-et használni, letöltheted a `.vsix` fájlt, és manuálisan telepítheted:
+Az alábbi linken letöltheted a `.vsix` fájlt, és manuálisan telepítheted a vs code-ba és internet nélkül is használhatod:
 
-[Letöltés VSIX fájlból](https://github.com/<felhasználó>/<repo>/releases/latest/download/dualjump-0.0.1.vsix)
+[Letöltés VSIX fájlból](https://github.com/DrozsdikAdam/dualjump/releases/tag/v0.0.1/dualjump-0.0.1.vsix)
 
 ## Telepítés
 
