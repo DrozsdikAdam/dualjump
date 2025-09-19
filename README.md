@@ -1,7 +1,6 @@
 # DualJump
 
-A **DualJump** egy egyszerű VS Code bővítmény, amellyel két fájl között lehet váltani, valamint könnyen mountolni és unmountolni őket gyors billentyűparancsokkal.  
-Hasznos, ha két fájl között kell gyakran ugrálnod munka közben.
+A **DualJump** egy egyszerű VS Code bővítmény, amellyel két fájl között lehet váltani, valamint könnyen mountolni és unmountolni őket gyors billentyűparancsokkal. Hasznos, ha két fájl között kell gyakran ugrálnod munka közben.
 
 ---
 
@@ -16,10 +15,9 @@ Hasznos, ha két fájl között kell gyakran ugrálnod munka közben.
 
 ## Billentyűparancsok
 
-| Billentyűparancs               | Művelet               |
-| ------------------------------ | --------------------- |
-| `Ctrl + Alt + ↑`               | Mount File            |
-| `Ctrl + Alt + →`               | Switch To File B      |
-| `Ctrl + Alt + ↓`               | Unmount Current File  |
-| `Ctrl + Alt + ←`               | Switch To File A      |
-| ------------------------------ | --------------------- |
+| Billentyűparancs | Művelet              |
+| ---------------- | -------------------- |
+| `Ctrl + Alt + ↑` | Mount File           |
+| `Ctrl + Alt + →` | Switch To File B     |
+| `Ctrl + Alt + ↓` | Unmount Current File |
+| `Ctrl + Alt + ←` | Switch To File A     |
