@@ -14,40 +14,40 @@
   "contributes": {
     "commands": [
       {
-        "command": "extension.mountFile",
+        "command": "dualjump.mountFile",
         "title": "Mount Files"
       },
       {
-        "command": "extension.unmountCurrentFile",
+        "command": "dualjump.unmountCurrentFile",
         "title": "Unmount Current File"
       },
       {
-        "command": "extension.SwitchToFileB",
+        "command": "dualjump.SwitchToFileB",
         "title": "Switch To File B"
       },
       {
-        "command": "extension.SwitchToFileA",
+        "command": "dualjump.SwitchToFileA",
         "title": "Switch To File A"
       }
     ],
     "keybindings": [
       {
-        "command": "extension.mountFile",
+        "command": "dualjump.mountFile",
         "key": "ctrl+alt+up",
         "when": "editorTextFocus"
       },
       {
-        "command": "extension.unmountCurrentFile",
+        "command": "dualjump.unmountCurrentFile",
         "key": "ctrl+alt+down",
         "when": "editorTextFocus"
       },
       {
-        "command": "extension.SwitchToFileB",
+        "command": "dualjump.SwitchToFileB",
         "key": "ctrl+alt+right",
         "when": "editorTextFocus"
       },
       {
-        "command": "extension.SwitchToFileA",
+        "command": "dualjump.SwitchToFileA",
         "key": "ctrl+alt+left",
         "when": "editorTextFocus"
       }
