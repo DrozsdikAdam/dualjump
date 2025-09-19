@@ -18,6 +18,24 @@ A **DualJump** egy egyszerű VS Code bővítmény, amellyel két fájl között 
 | Billentyűparancs | Művelet              |
 | ---------------- | -------------------- |
 | `Ctrl + Alt + ↑` | Mount File           |
-| `Ctrl + Alt + →` | Switch To File B     |
 | `Ctrl + Alt + ↓` | Unmount Current File |
 | `Ctrl + Alt + ←` | Switch To File A     |
+| `Ctrl + Alt + →` | Switch To File B     |
+
+---
+
+## Telepítés VSIX fájlból
+
+Ha nem szeretnéd a Marketplace-et használni, letöltheted a `.vsix` fájlt, és manuálisan telepítheted:
+
+[Letöltés VSIX fájlból](https://github.com/<felhasználó>/<repo>/releases/latest/download/dualjump-0.0.1.vsix)
+
+## Telepítés
+
+Telepítsd VS Code-ban:
+
+Nyisd meg a Command Palette-et (Ctrl+Shift+P).
+
+Keresd meg: Extensions: Install from VSIX.
+
+Válaszd ki a .vsix fájlt.
