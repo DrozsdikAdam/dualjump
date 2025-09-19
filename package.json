@@ -12,10 +12,46 @@
   "activationEvents": [],
   "main": "./extension.js",
   "contributes": {
-    "commands": [{
-      "command": "dualjump.helloWorld",
-      "title": "Hello World"
-    }]
+    "commands": [
+      {
+        "command": "extension.mountFile",
+        "title": "Mount Files"
+      },
+      {
+        "command": "extension.unmountCurrentFile",
+        "title": "Unmount Current File"
+      },
+      {
+        "command": "extension.SwitchToFileB",
+        "title": "Switch To File B"
+      },
+      {
+        "command": "extension.SwitchToFileA",
+        "title": "Switch To File A"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "extension.mountFile",
+        "key": "ctrl+alt+up",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "extension.unmountCurrentFile",
+        "key": "ctrl+alt+down",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "extension.SwitchToFileB",
+        "key": "ctrl+alt+right",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "extension.SwitchToFileA",
+        "key": "ctrl+alt+left",
+        "when": "editorTextFocus"
+      }
+    ]
   },
   "scripts": {
     "lint": "eslint .",
